@@ -1,0 +1,326 @@
+/* ------IMAGENES SUPERIOR----------- */
+.carousel-caption {
+    position:static;
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.overlay-text {
+    coloR: WHite;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    transform: translateY(-50%);
+    top: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    text-shadow: black 0px 0px 35px , black 0px 0px 35px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+
+.overlay-word {
+    display: inline-block;
+    line-height: 1em;
+    text-align: left;
+}
+
+  @keyframes zoomin {
+   50% {
+       transform: scale(1.1);
+   }
+  }
+  
+.carousel-inner {
+    animation: zoomin 30s linear infinite;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: zoomin;
+}
+
+.carousel-item {
+    background-color: #000000;
+    box-shadow: 200px rgb(109, 109, 109) inset;
+    filter: brightness(60%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: center;
+    display: block;
+}
+/* ------BARRA SUPERIOR----------- */
+
+body{
+    margin: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: linear-gradient(black,rgb(0, 3, 1,0.03));
+}
+nav .logo{
+    padding: 16px 20px;
+    height: 500px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+nav ul{
+    list-style: none;
+    float:right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+nav ul li a {
+
+    line-height: 80x;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+
+.menu1{
+    transition: 1.5s ease;
+     -moz-transition: 0.5s ease; 
+     -webkit-transition: 0.5s ease;
+     -o-transition: 0.5s ease; 
+}
+.menu1:hover{
+    transform : scale(0.3);
+    -moz-transform : scale(0.3); 
+    -webkit-transform : scale(0.8); 
+    -o-transform : scale(0.3); 
+    -ms-transform : scale(0.3); 
+}
+
+  /* -------PRESENTACION DE PAGINA Y OBRAS---------- */
+
+  #presentacion {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: #ffffff;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align:center;
+    width: 80%;
+  }
+  .textos {
+      text-align: center;
+  }
+
+#presentacion h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  color: #7b7b7b;
+  letter-spacing: 1px;
+}
+
+#presentacion h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 200;
+  color: #7b7b7b;
+  letter-spacing: 1px;
+}
+
+#presentacion bold {
+  color: #2f2f2f;
+}
+
+/* -------BARRA DE ESTUDIOS---------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: #333;
+    padding-left: px;
+    
+  }
+
+  #g {
+    background: #f2f2f2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+
+  }
+
+  .imagen-circular{
+    display: block;
+    margin: 0px auto;
+    border-radius: 50%;
+    width: 200px;
+  height: 200px;
+
+  }
+
+.row h3 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.row p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/* -gris- */
+#grid {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 100%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 10s;
+  -ms-transition: all 10s;
+  -o-transition: all 10s;
+  transition: all 10s;
+}
+
+#grid div {
+  color: #ffffff;
+  min-height: 200px;
+  max-height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.imagen-circular {
+  filter: opacity(40%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.imagen-circular:hover {
+  filter: opacity(100%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/*TEXTO PARA LA PRESENTACION DE NOTICIAS ARQUITECTONICAS -->*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: #333;
+    padding-left: px;
+    
+  }
+
+
+  .imagen-circular2{
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+    height: 300px;
+
+  }
+
+.row h3 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+
+}
+/* -gris- */
+#grid {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 100%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 10s;
+  -ms-transition: all 10s;
+  -o-transition: all 10s;
+  transition: all 10s;
+}
+
+#grid div {
+  color: #ffffff;
+  min-height: 200px;
+  max-height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.imagen-circular2 {
+  filter: grayscale(100%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.imagen-circular2:hover {
+  filter: grayscale(0%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* -ULTIMA SECCION- */
+
+#ultima {
+  background: #f2f2f2;
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto ;
+  padding-left: 40px;
+  grid-template-rows: 1fr 35px;
+  height: 135px;
+  position: absolute;
+  column-gap: 38px;
+  width: 100%;
+}
