@@ -1,0 +1,106 @@
+body{
+}
+
+.register_conteiner{
+    height: 600px;
+    width: 300px;
+    border-style: solid;
+    border-width: 0.3px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: snow;
+    display: block;
+    margin: auto;
+}
+
+
+
+.right{
+    text-align: right;
+}
+
+.button_exit{
+    background-color: white;
+    color: dimgrey;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-content: right;
+    margin: 2px 2px 2px 2px;
+}
+
+.cuerpo_superior{
+    display: flex;
+    justify-content: center;
+}
+
+#logo_candado{
+    width: 30%;
+}
+
+.correo{
+    width: 70%;
+    color:whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+input{
+    outline:none;
+    border: none;
+}
+
+
+
+#input_pass{
+    margin-top: 5px;
+    background-color: white ;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: darkgray;
+    color:darkgray;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+#confirmar{
+    text-align: center;
+    background-color: #decc6c ;
+    width: 215.6px;
+    height: 31.2px;
+    border-radius: 3px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+.cuerpo_medio{
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;   
+}
+h2{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+h4{
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;   
+}
+
+.cuerpo_inferior{
+    text-align: center;
+}
